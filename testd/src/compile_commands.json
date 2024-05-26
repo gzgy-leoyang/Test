@@ -1,0 +1,98 @@
+[
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/event_handler.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/event_handler.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/event_handler.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/event_handler.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/main.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/main.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/main.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/main.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/net/abstract_net.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/net/abstract_net.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/net/abstract_net.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/net/abstract_net.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/net/net_can.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/net/net_can.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/net/net_can.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/net/net_can.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/service/udsManager.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/service/udsManager.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/service/udsManager.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/service/udsManager.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/adapter/adapter.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/adapter.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/adapter.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/adapter/adapter.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/adapter/device_adapter.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/device_adapter.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/device_adapter.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/adapter/device_adapter.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/adapter/hyman_adapter.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/hyman_adapter.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/hyman_adapter.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/adapter/hyman_adapter.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/adapter/kemp_adapter.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/kemp_adapter.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/kemp_adapter.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/adapter/kemp_adapter.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/adapter/launcher_adapter.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/launcher_adapter.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/launcher_adapter.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/adapter/launcher_adapter.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/adapter/mcu_adapter.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/mcu_adapter.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/mcu_adapter.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/adapter/mcu_adapter.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/adapter/orchid_adapter.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/orchid_adapter.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/orchid_adapter.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/adapter/orchid_adapter.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-g++  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -std=c++11 -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/adapter/sys_adapter.cpp.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/sys_adapter.cpp",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/adapter/sys_adapter.cpp",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/adapter/sys_adapter.cpp.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-gcc  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/support/sys_info.c.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/support/sys_info.c",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/support/sys_info.c",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/support/sys_info.c.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-gcc  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/support/utils.c.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/support/utils.c",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/support/utils.c",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/support/utils.c.o"
+},
+{
+  "directory": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/build/rockchip/rk3568/Release/src",
+  "command": "/home/dd/Works/RK3568/sz-yq/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-linux-gcc  -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/inc -I/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os -g0 -D_FORTIFY_SOURCE=1 -O3 -DNDEBUG -Wall -Wextra -pedantic -Wno-variadic-macros -o CMakeFiles/yqsrv_testd.dir/support/watchdog.c.o -c /home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/support/watchdog.c",
+  "file": "/home/dd/Works/RK3568/yq_service/testd/yqsrv_testd/src/support/watchdog.c",
+  "output": "src/CMakeFiles/yqsrv_testd.dir/support/watchdog.c.o"
+}
+]

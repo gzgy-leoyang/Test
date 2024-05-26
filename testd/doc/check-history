@@ -1,0 +1,136 @@
+# 源码检查记录
+
+## gcc
+
+```sh
+# dd @ Red in ~/Works/RK3568/yq_service/spy on git:master x [18:40:18] 
+$ ./build.sh -p=rk3568        
+ > 构建项目: /home/dd/Works/RK3568/yq_service/spy
+ > 目标平台: rk3568
+ > 环境配置: build.conf/rk3568/rk3568.env
+ > 工具配置: build.conf/rk3568/rk3568.cmake
+ >>进入预处理
+ >>预处理完成
+ > 准备更新 Makefile
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Set up ccache ...
+-- ======================================================
+-- 编译工具: /usr/bin/make
+-- 源码目录: /home/dd/Works/RK3568/yq_service/spy
+-- 工具描述: /home/dd/Works/RK3568/yq_service/spy/build.conf/rk3568/rk3568.cmake
+-- 目标平台: rockchip
+-- 目标芯片: rk3568
+-- 编译类型: Release
+-- 输出目录: /tmp/home/dd/Works/RK3568/yq_service/spy/build/rockchip/rk3568/Release
+-- 安装位置: /home/dd/Works/RK3568/yq_service/spy/out/rk3568
+-- 库输出  : OFF
+-- 第三方库: 
+-- ======================================================
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/home/dd/Works/RK3568/yq_service/spy/build/rockchip/rk3568/Release
+ > Makefile 更新完成
+ > 执行构建
+[ 13%] Building CXX object src/CMakeFiles/Spy.dir/net/net_can.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/Spy.dir/net/abstract_net.cpp.o
+[ 20%] Building C object src/CMakeFiles/Spy.dir/support/watchdog.c.o
+[ 26%] Building C object src/CMakeFiles/Spy.dir/support/sys_info.c.o
+[ 33%] Building CXX object src/CMakeFiles/Spy.dir/event_handler.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/Spy.dir/adapter/adapter.cpp.o
+[ 46%] Building CXX object src/CMakeFiles/Spy.dir/adapter/hyman_adapter.cpp.o
+[ 53%] Building CXX object src/CMakeFiles/Spy.dir/main.cpp.o
+[ 60%] Building CXX object src/CMakeFiles/Spy.dir/service/udsManager.cpp.o
+[ 66%] Building CXX object src/CMakeFiles/Spy.dir/adapter/device_adapter.cpp.o
+[ 73%] Building CXX object src/CMakeFiles/Spy.dir/adapter/launcher_adapter.cpp.o
+[ 80%] Building CXX object src/CMakeFiles/Spy.dir/adapter/orchid_adapter.cpp.o
+[ 86%] Building CXX object src/CMakeFiles/Spy.dir/adapter/sys_adapter.cpp.o
+[ 93%] Building C object src/CMakeFiles/Spy.dir/support/utils.c.o
+[100%] Linking CXX executable Spy
+[100%] Built target Spy
+ > 安装部署
+[100%] Built target Spy
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/dd/Works/RK3568/yq_service/spy/out/rk3568/bin/Spy
+ >>进入后处理...
+/home/dd/Works/RK3568/yq_service/spy/out/rk3568/bin...hed, 0 skipped. 574.1 MB/s (201080 bytes in 0.000s)
+ >>后处理完成
+ > 编译和安装完成
+
+
+```
+
+
+## cppcheck
+
+```sh
+# dd @ Red in ~/Works/RK3568/yq_service/spy on git:master o [18:38:43] C:1
+$ cppcheck --enable=all \
+--suppress=missingIncludeSystem \
+--suppress=unusedFunction \
+--suppress=unknownMacro \
+--std=c++11 \
+--language=c++ \
+--platform=unix64 \
+--check-level=exhaustive -I/home/dd/Works/RK3568/yq_service/spy/inc/ ./src 
+Checking src/adapter/adapter.cpp ...
+/home/dd/Works/RK3568/yq_service/spy/inc/support/debug_out.h:5:0: information: Include file: "plog/Initializers/RollingFileInitializer.h" not found. [missingInclude]
+#include "plog/Initializers/RollingFileInitializer.h"
+^
+1/14 files checked 4% done
+Checking src/adapter/device_adapter.cpp ...
+/home/dd/Works/RK3568/yq_service/spy/inc/main.h:7:0: information: Include file: "plog/Initializers/RollingFileInitializer.h" not found. [missingInclude]
+#include "plog/Initializers/RollingFileInitializer.h"
+^
+Checking src/adapter/device_adapter.cpp: _DEBUG_INFO...
+2/14 files checked 10% done
+Checking src/adapter/hyman_adapter.cpp ...
+src/adapter/hyman_adapter.cpp:103:22: style: union member 'semun::buf' is never used. [unusedStructMember]
+    struct semid_ds* buf;
+                     ^
+src/adapter/hyman_adapter.cpp:104:21: style: union member 'semun::arrary' is never used. [unusedStructMember]
+    unsigned short* arrary;
+                    ^
+src/adapter/hyman_adapter.cpp:105:21: style: union member 'semun::__buf' is never used. [unusedStructMember]
+    struct seminfo* __buf;
+                    ^
+3/14 files checked 24% done
+Checking src/adapter/launcher_adapter.cpp ...
+4/14 files checked 27% done
+Checking src/adapter/orchid_adapter.cpp ...
+5/14 files checked 29% done
+Checking src/adapter/sys_adapter.cpp ...
+6/14 files checked 45% done
+Checking src/event_handler.cpp ...
+7/14 files checked 49% done
+Checking src/main.cpp ...
+8/14 files checked 55% done
+Checking src/net/abstract_net.cpp ...
+9/14 files checked 57% done
+Checking src/net/net_can.cpp ...
+10/14 files checked 67% done
+Checking src/service/udsManager.cpp ...
+Checking src/service/udsManager.cpp: _DEBUG_INFO...
+11/14 files checked 82% done
+Checking src/support/sys_info.c ...
+12/14 files checked 95% done
+Checking src/support/utils.c ...
+src/support/utils.c:18:23: style: C-style pointer casting [cstyleCast]
+  const char* _date = (char*)(__DATE__);
+                      ^
+src/support/utils.c:27:10: style: C-style pointer casting [cstyleCast]
+  memcpy((char*)(date_buf),(char*)(_date+9), 2 );
+         ^
+src/support/utils.c:30:17: style: C-style pointer casting [cstyleCast]
+    if ( memcmp((void*)(month[i]),(void*)(_date),3) == 0){
+                ^
+13/14 files checked 98% done
+Checking src/support/watchdog.c ...
+14/14 files checked 100% done
+nofile:0:0: information: Unmatched suppression: unknownMacro [unmatchedSuppression]
+
+Active checkers: 162/565
+
+
+```

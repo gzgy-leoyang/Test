@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>page_qml/main.qml</file>
+        <file>page_qml/Page_gerneral_info.qml</file>
+        <file>page_qml/Page_device_info.qml</file>
+        <file>page_qml/Page_gerneral_setting.qml</file>
+    </qresource>
+</RCC>
